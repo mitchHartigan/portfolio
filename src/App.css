@@ -60,7 +60,8 @@
 }
 
 .page-Div {
-  height: 100vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .checkMeOut-Container {
@@ -85,8 +86,6 @@
   font-size: 25pt;
   text-align: center;
   color: white;
-  padding-top: 12vh;
-  padding-bottom: 5vh;
 }
 
 .technologies-Text-Container {
@@ -97,12 +96,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .services-Container {
    display: flex;
    flex-direction: row;
    justify-content: space-around;
+   flex-wrap: wrap;
    width: 50%;
 }
 
@@ -118,7 +119,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px 50px 10px 50px;
+  margin: 4vh 4vh 4vh 4vh;
 }
 
 .technology-Text {
@@ -131,4 +132,121 @@
 
 .black-Background {
   background-color: black;
+}
+
+.myWork-Header-Text {
+  font-family: 'Lato';
+  font-size: 30pt;
+  text-align: center;
+  padding-top: 3vh;
+}
+
+.display-Button-Live {
+  padding: 10px 20px 10px 20px;
+  margin: 20px 20px 0px 0px;
+  border: 1px solid black;
+  background-color: black;
+  font-family: 'Roboto';
+  outline: none;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.display-Button-Github {
+  padding: 10px 38px 10px 38px;
+  margin: 20px 0px 0px 20px;
+  background-color: transparent;
+  border: 1px solid black;
+  font-family: 'Roboto';
+  font-weight: 400;
+  outline: none;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.project-Title-SubText {
+  font-family: 'Lato';
+  font-size: 14pt;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.title-Text {
+  font-family: 'Lato';
+  font-size: 14pt;
+  font-weight: 300;
+}
+
+.project-Display-Container {
+  display: flex;
+  flex-direction: column;
+   justify-content: center;
+}
+
+.display-Buttons-Container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.bulletPoint-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-Container-Parent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-Description-Container {
+  margin-left: 5vw;
+  margin-top: 0vh;
+}
+
+.project-Content-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.description-Text-Container {
+  max-width: 20vw;
+}
+
+.project-Description-Text {
+  font-family: 'Roboto';
+  font-size: 12pt;
+  font-weight: 300;
+  margin-top: 0px;
+}
+
+.project-Title-Text {
+  font-family: 'Lato';
+  font-size: 20pt;
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 3vh;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: circle;
+  margin-top: 0px;
+}
+
+h4 {
+  margin-bottom: 0px;
 }

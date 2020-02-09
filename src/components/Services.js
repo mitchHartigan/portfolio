@@ -16,9 +16,9 @@ export default class Services extends Component {
         
         <div className="services-Container-Parent">
           <div className="services-Container">
+            <Technology src={netlify_logo} alt={'netlify logo'} text={'Netlify'} />
             <Technology src={github_logo} alt={'github logo'} text={'GitHub'} />
             <Technology src={heroku_logo} alt={'heroku logo'} text={'Heroku'} />
-            <Technology src={netlify_logo} alt={'netlify logo'} text={'Netlify'} />
           </div>
         </div>
       </div>

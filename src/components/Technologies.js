@@ -21,8 +21,8 @@ export default class Technologies extends Component {
         <div className="technologies-Container">
           <Technology src={html_logo} alt={'html logo'} text={'HTML5'} />
           <Technology src={CSS3_logo} alt={'CSS3 logo'} text={'CSS3'} />
-          <Technology src={react_logo} alt={'react logo'} text={'React'} />
           <Technology src={js_logo} alt={'js logo'} text={'JS/ES6'} />
+          <Technology src={react_logo} alt={'react logo'} text={'React'} />
           <Technology src={node_logo} alt={'node logo'} text={'Node/Express.js'} />
           <Technology src={git_logo} alt={'git logo'} text={'Git'} />
           <Technology src={npm_logo} alt={'npm logo'} text={'npm'} /> 

@@ -8,7 +8,7 @@ export default class CheckMeOut extends Component {
         <p className="checkMeOut-Text"><i>Check out some of my work</i></p>
         <img
          alt="chevron down by Bradley Wilton from the Noun Project"
-         src={downArrow} width="80" height="80"/>
+         src={downArrow} width="60" height="60"/>
       </div>
      );
   }
