@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-export default class   ProjectDisplay extends Component {
-  render() { 
+export default class ProjectDisplay extends Component {
+  render() {
     return ( 
       <div className="project-Display-Container">
         <div className="display-Img-Container">
@@ -10,11 +10,16 @@ export default class   ProjectDisplay extends Component {
 
         <div className="display-Buttons-Container">
           <a href={this.props.liveURL}
-             className="display-Button-Live">
+             className="display-Button-Live"
+             target="_blank"
+             rel="noopener noreferrer"
+             >
           Live Version</a>
 
           <a href={this.props.githubURL}
              className="display-Button-Github"
+             target="_blank"
+             rel="noopener noreferrer"
           >GitHub</a>
         </div>
 

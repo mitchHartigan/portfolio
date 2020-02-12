@@ -42,6 +42,8 @@ export default class Page extends Component {
             projectTitleStyle={'project-Title-Text'}
             displayImg={scriber_display}
             displayImgAlt={'scriber app display image'}
+            liveURL={'https://scriber.design/'}
+            githubURL={'https://github.com/mitchHartigan/scriber-frontend'}
             techBulletPointsCol1={[
                                     'React.js',
                                     'Node/Express.js',
@@ -80,6 +82,8 @@ export default class Page extends Component {
             projectTitleStyle={'project-Title-Text'}
             displayImg={singapore_display}
             displayImgAlt={'Farm to finance in singapore display image'}
+            liveURL={'https://mitchhartigan.github.io/d3-visualization/'}
+            githubURL={'https://github.com/mitchHartigan/d3-visualization'}
             techBulletPointsCol1={[
                                   'D3.js',
                                   'HTML5',
@@ -113,6 +117,8 @@ export default class Page extends Component {
             projectTitle={'Spook Calendar'}
             projectTitleStyle={'project-Title-Text'}
             displayImg={spook_calendar_display}
+            liveURL={'https://mitchhartigan.github.io/spook-calendar/'}
+            githubURL={'https://github.com/mitchHartigan/spook-calendar/'}
             techBulletPointsCol1={['HTML5', 'JS']}
             techBulletPointsCol2={['CSS3', 'Git/GitHub']}
             projectDescription={`This website acts as a year calendar relative to October, where it is assumed that all other months don't

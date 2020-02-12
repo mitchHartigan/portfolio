@@ -17,8 +17,8 @@ export default class Project extends Component {
               <ProjectDisplay
               src={this.props.displayImg} 
               alt={this.props.displayImgAlt}
-              liveUrl={'https://www.youtube.com/'}
-              gitHubUrl={''}
+              liveURL={this.props.liveURL}
+              githubURL={this.props.githubURL}
               />
               <Title textStyle={'technologies-Title-Text'}>Technologies used:</Title>
               <div className="bulletPoint-Container">
