@@ -13,12 +13,14 @@ export default class Project extends Component {
 
           <Title textStyle={'project-Title-Text'}>{this.props.projectTitle}</Title>
           <div className="project-Content-Container">
-            <div>
+            <div className="project-Display-Container-Parent">
               <ProjectDisplay
               src={this.props.displayImg} 
               alt={this.props.displayImgAlt}
+              liveUrl={'https://www.youtube.com/'}
+              gitHubUrl={''}
               />
-              <Title textStyle={'project-Title-SubText'}>Technologies used:</Title>
+              <Title textStyle={'technologies-Title-Text'}>Technologies used:</Title>
               <div className="bulletPoint-Container">
                 <BulletedList bulletPoints={this.props.techBulletPointsCol1} />
                 <BulletedList bulletPoints={this.props.techBulletPointsCol2} />

@@ -12,7 +12,7 @@ export default class BulletedList extends Component {
 
   render() { 
     return ( 
-      <div>
+      <div className="bulletedList-Container">
         <div>{this.props.bulletPoints.map(this.eachPoint)}</div>
       </div>
      );

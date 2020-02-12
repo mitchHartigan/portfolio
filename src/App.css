@@ -19,14 +19,15 @@
   margin-top: 20px;
   margin-bottom: 20px;
   padding-right: 2vw;
+  padding-top: 5px;
 }
-
 
 .header-Container {
   width: 100%;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  align-items: center;
   position: fixed;
   top: 0;
   background-color: white;
@@ -34,9 +35,12 @@
 
 .mitchHartigan-Header-Text {
   font-family: 'Lato';
-  font-size: 14pt;
+  font-size: 18pt;
   margin-top: 20px;
   padding-left: 2vw;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
 }
 
 .greeting-Hero-Text {
@@ -56,7 +60,7 @@
 
 .greeting-Container {
   width: 100%;
-  padding-top: 25vh;
+  padding-top: 23vh;
 }
 
 .page-Div {
@@ -92,6 +96,13 @@
   width: 100%
 }
 
+.technologies-Title-Text {
+  font-family: 'Lato';
+  font-size: 14pt;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
 .technologies-Container {
   display: flex;
   flex-direction: row;
@@ -120,6 +131,12 @@
   justify-content: center;
   align-items: center;
   margin: 4vh 4vh 4vh 4vh;
+  max-width: 100px;
+}
+
+.technology-Img {
+  height:auto;
+  width: 100%;
 }
 
 .technology-Text {
@@ -134,11 +151,54 @@
   background-color: black;
 }
 
-.myWork-Header-Text {
+.pageTitle-Header-Text {
   font-family: 'Lato';
   font-size: 30pt;
   text-align: center;
   padding-top: 3vh;
+}
+
+.contact-Header-Text {
+  font-family: 'Lato';
+  font-size: 30pt;
+  text-align: center;
+  margin-top: -2vh;
+  padding-bottom: 2vh;
+  color: white;
+}
+
+.experience-Header-Text {
+  font-family: 'Lato';
+  font-size: 30pt;
+  text-align: center;
+  color: black;
+}
+
+.experience-Sub-Text {
+  font-family: 'Roboto';
+  font-size: 18pt;
+  text-align: center;
+  font-weight: 300;
+}
+
+.contact-Sub-Text {
+  font-family: 'Roboto';
+  font-size: 18pt;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 2vh;
+  margin-bottom: 0vh;
+  padding-bottom: 3vh;
+  color:white;
+}
+
+.contact-Link {
+  color: white;
+}
+
+.experience-Link {
+  color: black;
+  cursor: pointer;
 }
 
 .display-Button-Live {
@@ -166,6 +226,15 @@
   cursor: pointer;
 }
 
+.display-Img {
+  width: 100%;
+  height: auto;
+}
+
+.display-Img-Container {
+  max-width: 500px;
+}
+
 .project-Title-SubText {
   font-family: 'Lato';
   font-size: 14pt;
@@ -182,7 +251,7 @@
 .project-Display-Container {
   display: flex;
   flex-direction: column;
-   justify-content: center;
+  justify-content: center;
 }
 
 .display-Buttons-Container{
@@ -204,6 +273,7 @@
 }
 
 .project-Container-Parent {
+  margin-bottom: 10vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -211,7 +281,7 @@
 }
 
 .project-Description-Container {
-  margin-left: 5vw;
+  margin-left: 3vw;
   margin-top: 0vh;
 }
 
@@ -220,10 +290,12 @@
   flex-direction: row;
   justify-content: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .description-Text-Container {
   max-width: 20vw;
+  min-width: 300px;
 }
 
 .project-Description-Text {
@@ -231,6 +303,7 @@
   font-size: 12pt;
   font-weight: 300;
   margin-top: 0px;
+  line-height: 1.35;
 }
 
 .project-Title-Text {
@@ -241,6 +314,34 @@
   margin-bottom: 3vh;
 }
 
+.my-Experience-Div {
+  padding-top: 0vh;
+  margin-bottom: 15vh;
+}
+
+.testimonial-Text {
+  max-width: 70vw;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 18pt;
+  margin-bottom: 0vh;
+  margin-top: 10vh;
+}
+
+.testimonial-Sub-Text {
+  max-width: 70vw;
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 18pt;
+}
+
+.testimonial-Text-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 ul {
   padding-left: 20px;
   list-style-type: circle;
@@ -249,4 +350,135 @@ ul {
 
 h4 {
   margin-bottom: 0px;
+}
+
+@media screen and (max-width: 908px) {
+  .project-Description-Container {
+    width: 100%;
+  }
+  .description-Text-Container {
+    max-width: none;
+  }
+  .project-Display-Container-Parent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .project-Display-Container {
+    align-items: center;
+  }
+  
+
+  .display-Buttons-Container {
+    justify-content: center;
+  }
+
+  .project-Title-Text {
+    text-align: center;
+  }
+
+  .technologies-Title-Text {
+    padding-left: 3vw;
+  }
+
+  .display-Img-Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bulletPoint-Container{
+    justify-content: flex-start;
+    padding: 0vh 3vh 0vh 3vh;
+  }
+
+  .bulletedList-Container {
+    padding-right: 10vw;
+  };
+}
+
+
+@media screen and (max-width: 700px) {
+  .navLink-Parent {
+    display: none;
+    padding: none;
+  }
+
+  .checkMeOut-Container {
+    padding-top: 35vh;
+  }
+
+  .header-Container {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .greeting-Container {
+    width: 100%;
+    padding-top: 20vh;
+  }
+
+  .greeting-Hero-Text {
+    font-size: 35pt;
+  }
+
+  .greeting-Sub-Text {
+    font-size: 14pt;
+  }
+
+  .checkMeOut-Text {
+    font-size: 12pt;
+  }
+
+  .testimonial-Text{
+    font-size: 14pt;
+  }
+  .testimonial-Sub-Text{
+    font-size: 14pt;
+  }
+  
+  .experience-Sub-Text {
+    font-size: 14pt;
+  }
+  
+  .contact-Sub-Text {
+    font-size: 14pt;
+  }
+}
+
+
+@media screen and (max-width: 330px) {
+  .description-Text-Container {
+    max-width: 300px;
+  }
+
+  .greeting-Container {
+    width: 100%;
+    padding-top: 10vh;
+  }
+
+  .header-Container {
+    max-width: 320px;
+  }
+  .project-Container {
+    max-width: 320px;
+  }
+  .project-Title-Text {
+    max-width: 320px;
+  }
+  .project-Content-Container {
+    max-width: 320px;
+  }
+  .project-Display-Container-Parent {
+    max-width: 320px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
 }

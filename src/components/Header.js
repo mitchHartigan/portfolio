@@ -6,15 +6,14 @@ class Header extends Component {
   render() { 
     return (
       <div className="header-Container">
-
         <div>
-          <h1 className="mitchHartigan-Header-Text">Mitch.Hartigan</h1>
+          <NavLink linkStyle={'mitchHartigan-Header-Text'} linkText={'MH'} scrollTarget={'top'} />
         </div>
-
+        
           <div className="navLink-Parent">
-            <NavLink linkText={'Contact'} />
-            <NavLink linkText={'My Work'} />
-            <NavLink linkText={'Experience'} />
+            <NavLink linkStyle={'navLink'} linkText={'Contact'} scrollTarget={'contact'} />
+            <NavLink linkStyle={'navLink'} linkText={'My Work'} scrollTarget={'my-work'}/>
+            <NavLink linkStyle={'navLink'} linkText={'Experience'} scrollTarget={'my-experience'} />
           </div>
         </div>
      );
