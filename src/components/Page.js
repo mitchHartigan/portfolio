@@ -87,9 +87,9 @@ export default class Page extends Component {
                                  D3.js. It visualizes Singapores rapid shift from a farming economy to a financial services based
                                  economy. The site is interactive, and lets the user make selections as to which data they'd like
                                  to see displayed.`}
-            challengesDescription={`Specifically, this project was a great tool in teaching me the inner working of D3.js, as well
+            challengesDescription={`Specifically, this project served as a great opportunity to learn the inner working of D3.js, as well
                                     as some more advanced techniques for gathering and parsing large sources of data from the internet.
-                                    As was recommended in the unit, I also learned a selection of jQuery techniques for animating and
+                                    I also learned a selection of jQuery techniques for animating and
                                     dynamically displaying certain elements, which proved rather useful in the context of this project
                                     and for my development skillset as a whole.
                                     `}
