@@ -140,13 +140,13 @@ export default class Page extends Component {
               "Treemap Data Visualization",
               "Persistent Data through localstorage",
             ]}
-            projectDescription={`One of my favorite hobbies is backpacking, and less weight on your back always leads to a more enjoyable trip.
-                                However, deciding what gear to bring and what to leave behind is often a difficult process full of trade-offs. Pakkit is a web-based data visualization tool
+            projectDescription={`One of my favorite hobbies is backpacking, and having to carry less weight always leads to a more enjoyable trip.
+                                However, deciding what backpacking gear to bring and what to leave behind is often a difficult process full of trade-offs. Pakkit is a web-based data visualization tool
                                 that I designed to help make these decisions easier. It allows users to enter the weight of each item in their pack,
-                                creating and displaying a visual representation of their backpacking gear and its weight.`}
+                                creating and displaying a visual representation of their backpacking gear.`}
             challengesDescription={`This project was a great opportunity for me to draw on both my design and development skills, in creating a product designed to be useful,
                                     useable, and performant. I created several different UI prototypes in Figma, user tested them with backpacker friends, and used their feedback to 
-                                    iterate on and improve the user experience. Translating that into a performant front-end React application proved challenging but extremely rewarding,
+                                    iterate on and improve the user experience. Translating that into a functional front-end React application proved challenging but extremely rewarding,
                                     especially with regard to parsing and displaying the live data, and in managing the overall size and scope of the application itself.
                                     `}
             featureBulletPoints={[""]}
