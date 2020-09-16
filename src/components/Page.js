@@ -38,6 +38,38 @@ export default class Page extends Component {
           <PageTitle textStyle="pageTitle-Header-Text">My Projects</PageTitle>
 
           <Project
+            projectTitle="Pakkit"
+            projectTitleStyle="project-Title-Text"
+            displayImg={pakkit_display}
+            liveURL="https://pakkit.netlify.app/"
+            githubURL="https://github.com/mitchHartigan/pakkit/"
+            techBulletPointsCol1={[
+              "JS/React",
+              "Styled Components",
+              "PropTypes",
+            ]}
+            techBulletPointsCol2={[
+              "React Router",
+              "Git/Github",
+              "Netlify Deployment",
+            ]}
+            projectDescription={`One of my favorite hobbies is backpacking, and having to carry less weight always leads to a more enjoyable trip.
+                                However, deciding what backpacking gear to bring and what to leave behind is often a difficult process full of trade-offs. Pakkit is a web-based data visualization tool
+                                that I designed to help make these decisions easier. It allows users to enter the weight of each item in their pack,
+                                creating and displaying a visual representation of their backpacking gear.`}
+            challengesDescription={`This project was a great opportunity for me to draw on both my design and development skills, in creating a product designed to be useful,
+                                    useable, and performant. I created several different UI prototypes in Figma, user tested them with backpacker friends, and used their feedback to 
+                                    iterate on and improve the user experience. Translating that into a functional front-end React application proved challenging but extremely rewarding,
+                                    especially with regard to parsing and displaying the live data, and in managing the overall size and scope of the application itself.
+                                    `}
+            featureBulletPoints={[
+              "Dynamic treemap data visualization",
+              "Drag and drop list elements",
+              "Programmatic graph color scheme",
+              "'Single source of truth' shared by list and visualization components.",
+            ]}
+          />
+          <Project
             projectTitle={"Scriber"}
             projectTitleStyle={"project-Title-Text"}
             displayImg={scriber_display}
@@ -100,56 +132,6 @@ export default class Page extends Component {
               "Treemap Visualization",
               "Large Object Parsing",
             ]}
-          />
-          <Project
-            projectTitle={"Spook Calendar"}
-            projectTitleStyle={"project-Title-Text"}
-            displayImg={spook_calendar_display}
-            liveURL={"https://mitchhartigan.github.io/spook-calendar/"}
-            githubURL={"https://github.com/mitchHartigan/spook-calendar/"}
-            techBulletPointsCol1={["HTML5", "JS"]}
-            techBulletPointsCol2={["CSS3", "Git/GitHub"]}
-            projectDescription={`This website acts as a year calendar relative to October, where it is assumed that all other months don't
-                                exist and therefore it is always time to be spooky. Originally based off of a meme conveying the same message, the
-                                Spook Calendar was created as a one-day challenge/hackathon build.`}
-            challengesDescription={`As is likely true with many projects created hastily during hackathons, I failed to truly think through all of the different
-                                    conditions and outcomes that would be caused by the range of different dates throught the year. Spook Calendar taught me on a small scale
-                                    the long-running implications of hacky code and overconfidence, and changed my mindset towards approaching even seemingly simple development problems.
-                                  `}
-            featureBulletPoints={[
-              "JS Date Formatting",
-              "JS String Manipulation",
-              "Responsive Design",
-              "CSS Animations",
-            ]}
-          />
-          <Project
-            projectTitle="Pakkit"
-            projectTitleStyle="project-Title-Text"
-            displayImg={pakkit_display}
-            liveURL="https://pakkit.netlify.app/"
-            githubURL="https://github.com/mitchHartigan/pakkit/"
-            techBulletPointsCol1={[
-              "JS",
-              "React Beautiful DnD",
-              "Styled Components",
-              "PropTypes",
-            ]}
-            techBulletPointsCol2={[
-              "React Router",
-              "Treemap Data Visualization",
-              "Persistent Data through localstorage",
-            ]}
-            projectDescription={`One of my favorite hobbies is backpacking, and having to carry less weight always leads to a more enjoyable trip.
-                                However, deciding what backpacking gear to bring and what to leave behind is often a difficult process full of trade-offs. Pakkit is a web-based data visualization tool
-                                that I designed to help make these decisions easier. It allows users to enter the weight of each item in their pack,
-                                creating and displaying a visual representation of their backpacking gear.`}
-            challengesDescription={`This project was a great opportunity for me to draw on both my design and development skills, in creating a product designed to be useful,
-                                    useable, and performant. I created several different UI prototypes in Figma, user tested them with backpacker friends, and used their feedback to 
-                                    iterate on and improve the user experience. Translating that into a functional front-end React application proved challenging but extremely rewarding,
-                                    especially with regard to parsing and displaying the live data, and in managing the overall size and scope of the application itself.
-                                    `}
-            featureBulletPoints={[""]}
           />
         </div>
         <div id="my-experience" className="page-Div">
