@@ -13,11 +13,24 @@ import pakkit_display from "../Pakkit_thumbnail.PNG";
 import Experience from "./Experience";
 import Contact from "./Contact";
 import Testimonial from "./Testimonial";
+import Particles from "./Canvas";
 
 export default class Page extends Component {
   render() {
     return (
       <div>
+        <div
+          style={{
+            position: "absolute",
+            zIndex: "-1",
+            background: "#222",
+            top: "0",
+            left: "0",
+            right: "0px",
+          }}
+        >
+          <Particles />
+        </div>
         <div id="top">
           <Header />
         </div>
@@ -30,9 +43,7 @@ export default class Page extends Component {
           <Services />
         </div>
 
-        <div>
-          <Testimonial />
-        </div>
+        <Testimonial />
 
         <div id="my-work">
           <PageTitle textStyle="pageTitle-Header-Text">My Projects</PageTitle>

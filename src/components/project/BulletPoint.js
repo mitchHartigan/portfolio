@@ -1,13 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 export default class BulletPoint extends Component {
-  render() { 
-    return ( 
+  render() {
+    return (
       <div>
         <ul>
-          <li>{this.props.text}</li>
+          <li
+            style={{
+              color: "#EBEBEB",
+            }}
+          >
+            {this.props.text}
+          </li>
         </ul>
       </div>
-     );
+    );
   }
 }

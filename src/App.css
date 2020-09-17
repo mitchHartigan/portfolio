@@ -9,6 +9,7 @@
   margin: 0px 50px 0px 50px;
   cursor: pointer;
   white-space: nowrap;
+  color: white;
 }
 
 .navLink-Parent {
@@ -30,7 +31,7 @@
   align-items: center;
   position: fixed;
   top: 0;
-  background-color: white;
+  background-color: #222;
 }
 
 .mitchHartigan-Header-Text {
@@ -41,6 +42,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   cursor: pointer;
+  color: white;
 }
 
 .greeting-Hero-Text {
@@ -48,6 +50,8 @@
   font-size: 50pt;
   text-align: center;
   margin-bottom: 0vh;
+  color: white;
+  text-shadow: 3px 3px 3px #3d3d3d;
 }
 
 .greeting-Sub-Text {
@@ -56,16 +60,17 @@
   text-align: center;
   font-weight: 300;
   margin-top: 2vh;
+  color: white;
+  text-shadow: 2px 2px 2px #3d3d3d;
 }
 
 .greeting-Container {
   width: 100%;
-  padding-top: 23vh;
+  padding-top: 28vh;
 }
 
 .page-Div {
   padding-top: 5vh;
-  padding-bottom: 5vh;
 }
 
 .checkMeOut-Container {
@@ -82,6 +87,8 @@
   font-size: 14pt;
   font-weight: 300;
   margin-bottom: 0px;
+  color: white;
+  text-shadow: 1px 1px 1.5px #3d3d3d;
 }
 
 .technologies-Header-Text {
@@ -101,6 +108,7 @@
   font-size: 14pt;
   font-weight: 300;
   margin-bottom: 10px;
+  color: white;
 }
 
 .technologies-Container {
@@ -148,7 +156,7 @@
 }
 
 .black-Background {
-  background-color: black;
+  background-color: #141414;
 }
 
 .pageTitle-Header-Text {
@@ -156,6 +164,7 @@
   font-size: 30pt;
   text-align: center;
   padding-top: 3vh;
+  color: white;
 }
 
 .contact-Header-Text {
@@ -171,7 +180,7 @@
   font-family: "Lato";
   font-size: 30pt;
   text-align: center;
-  color: black;
+  color: white;
 }
 
 .experience-Sub-Text {
@@ -179,6 +188,7 @@
   font-size: 18pt;
   text-align: center;
   font-weight: 300;
+  color: white;
 }
 
 .contact-Sub-Text {
@@ -197,15 +207,15 @@
 }
 
 .experience-Link {
-  color: black;
+  color: white;
+  text-shadow: 2px 2px 2px #3d3d3d;
   cursor: pointer;
 }
 
 .display-Button-Live {
   padding: 10px 20px 10px 20px;
   margin: 20px 20px 0px 0px;
-  border: 1px solid black;
-  background-color: black;
+  background-color: #141414;
   font-family: "Roboto";
   outline: none;
   color: white;
@@ -217,11 +227,11 @@
   padding: 10px 38px 10px 38px;
   margin: 20px 0px 0px 20px;
   background-color: transparent;
-  border: 1px solid black;
+  border: 1px solid #ebebeb;
   font-family: "Roboto";
   font-weight: 400;
   outline: none;
-  color: black;
+  color: white;
   text-decoration: none;
   cursor: pointer;
 }
@@ -240,6 +250,7 @@
   font-size: 14pt;
   font-weight: 300;
   margin-bottom: 10px;
+  color: white;
 }
 
 .title-Text {
@@ -304,6 +315,7 @@
   font-weight: 300;
   margin-top: 0px;
   line-height: 1.35;
+  color: #ebebeb;
 }
 
 .project-Title-Text {
@@ -312,6 +324,7 @@
   font-weight: 300;
   text-align: left;
   margin-bottom: 3vh;
+  color: white;
 }
 
 .my-Experience-Div {
@@ -326,6 +339,7 @@
   font-size: 18pt;
   margin-bottom: 0vh;
   margin-top: 10vh;
+  color: white;
 }
 
 .testimonial-Sub-Text {
@@ -333,6 +347,7 @@
   font-family: "Lato";
   font-weight: 300;
   font-size: 18pt;
+  color: white;
 }
 
 .testimonial-Text-Container {
@@ -419,6 +434,8 @@ h4 {
   .greeting-Container {
     width: 100%;
     padding-top: 20vh;
+    background-color: white;
+    z-index: 0;
   }
 
   .greeting-Hero-Text {
@@ -478,4 +495,8 @@ h4 {
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: #222;
 }
