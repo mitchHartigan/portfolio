@@ -44,7 +44,7 @@ export default class Page extends Component {
             liveURL="https://pakkit.netlify.app/"
             githubURL="https://github.com/mitchHartigan/pakkit/"
             techBulletPointsCol1={[
-              "JS/React",
+              "React.js",
               "Styled Components",
               "PropTypes",
             ]}
