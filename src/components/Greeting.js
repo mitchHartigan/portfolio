@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Particles from "./Canvas";
 
 export default class Greeting extends Component {
   render() {

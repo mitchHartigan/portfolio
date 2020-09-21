@@ -8,7 +8,6 @@ import PageTitle from "./PageTitle";
 import Project from "./project/Project";
 import scriber_display from "../scriber_display.png";
 import singapore_display from "../singapore_display.png";
-import spook_calendar_display from "../spook_calendar_display.png";
 import pakkit_display from "../Pakkit_thumbnail.PNG";
 import Experience from "./Experience";
 import Contact from "./Contact";
@@ -26,15 +25,22 @@ export default class Page extends Component {
             background: "#222",
             top: "0",
             left: "0",
-            right: "0px",
+            right: "0px"
           }}
         >
           <Particles />
         </div>
-        <div id="top">
-          <Header />
-        </div>
-        <div className="page-Div">
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            height: "100vh",
+            justifyContent: "space-between"
+          }}
+        >
+          <div id="top">
+            <Header />
+          </div>
           <Greeting />
           <CheckMeOut />
         </div>
@@ -57,12 +63,12 @@ export default class Page extends Component {
             techBulletPointsCol1={[
               "React.js",
               "Styled Components",
-              "PropTypes",
+              "PropTypes"
             ]}
             techBulletPointsCol2={[
               "React Router",
               "Git/Github",
-              "Netlify Deployment",
+              "Netlify Deployment"
             ]}
             projectDescription={`One of my favorite hobbies is backpacking, and having to carry less weight always leads to a more enjoyable trip.
                                 However, deciding what backpacking gear to bring and what to leave behind is often a difficult process full of trade-offs. Pakkit is a web-based data visualization tool
@@ -77,7 +83,7 @@ export default class Page extends Component {
               "Dynamic treemap data visualization",
               "Drag and drop list elements",
               "Programmatic graph color scheme",
-              "'Single source of truth' shared by list and visualization components.",
+              "'Single source of truth' shared by list and visualization components."
             ]}
           />
           <Project
@@ -90,12 +96,12 @@ export default class Page extends Component {
             techBulletPointsCol1={[
               "React.js",
               "Node/Express.js",
-              "JSON Web Tokens",
+              "JSON Web Tokens"
             ]}
             techBulletPointsCol2={[
               "MongoDB",
               "Git/GitHub",
-              "Heroku/Netlify Deployment",
+              "Heroku/Netlify Deployment"
             ]}
             projectDescription={`Scriber is a minimalist notetaking app that I built
                                     to learn how to create persistent data communication to a RESTful
@@ -115,7 +121,7 @@ export default class Page extends Component {
               "Password Encryption",
               "REST API Backend",
               "Hosted MongoLab Database",
-              "Token persistence through localStorage",
+              "Token persistence through localStorage"
             ]}
           />
           <Project
@@ -141,7 +147,7 @@ export default class Page extends Component {
               "jQuery Animations",
               "Multi-Layer Line Visualization",
               "Treemap Visualization",
-              "Large Object Parsing",
+              "Large Object Parsing"
             ]}
           />
         </div>
