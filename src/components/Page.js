@@ -31,10 +31,10 @@ export default class Page extends Component {
         >
           <Particles />
         </div>
-        <div id="top">
-          <Header />
-        </div>
         <div className="page-Div">
+          <div id="top">
+            <Header />
+          </div>
           <Greeting />
           <CheckMeOut />
         </div>
@@ -77,7 +77,7 @@ export default class Page extends Component {
               "Dynamic treemap data visualization",
               "Drag and drop list elements",
               "Programmatic graph color scheme",
-              "'Single source of truth' shared by list and visualization components.",
+              "'Single source of truth' shared by list and visualization components",
             ]}
           />
           <Project

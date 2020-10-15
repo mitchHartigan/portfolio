@@ -59,9 +59,9 @@
   font-size: 18pt;
   text-align: center;
   font-weight: 300;
-  margin-top: 2vh;
+  margin-top: 3vh;
   color: white;
-  text-shadow: 2px 2px 2px #3d3d3d;
+  text-shadow: 2px 2px 3px #404040;
 }
 
 .greeting-Container {
