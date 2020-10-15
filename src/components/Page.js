@@ -30,7 +30,14 @@ export default class Page extends Component {
         >
           <Particles />
         </div>
-        <div className="page-Div">
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            height: "100vh",
+            justifyContent: "space-between",
+          }}
+        >
           <div id="top">
             <Header />
           </div>
