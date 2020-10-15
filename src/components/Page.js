@@ -8,7 +8,6 @@ import PageTitle from "./PageTitle";
 import Project from "./project/Project";
 import scriber_display from "../scriber_display.png";
 import singapore_display from "../singapore_display.png";
-import spook_calendar_display from "../spook_calendar_display.png";
 import pakkit_display from "../Pakkit_thumbnail.PNG";
 import Experience from "./Experience";
 import Contact from "./Contact";

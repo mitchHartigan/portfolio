@@ -66,7 +66,6 @@
 
 .greeting-Container {
   width: 100%;
-  padding-top: 28vh;
 }
 
 .page-Div {
@@ -79,7 +78,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 37vh;
 }
 
 .checkMeOut-Text {
