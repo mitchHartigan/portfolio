@@ -9,6 +9,7 @@ import Project from "./project/Project";
 import scriber_display from "../scriber_display.png";
 import singapore_display from "../singapore_display.png";
 import pakkit_display from "../Pakkit_thumbnail.PNG";
+import dron_display from "../dron_concept_img.PNG";
 import Experience from "./Experience";
 import Contact from "./Contact";
 import Testimonial from "./Testimonial";
@@ -87,12 +88,33 @@ export default class Page extends Component {
             ]}
           />
           <Project
+            projectTitle={"Drön"}
+            projectTitleStyle={"project-Title-Text"}
+            displayImg={dron_display}
+            displayImgAlt={"dron app display image"}
+            liveURL={"https://mitchhartigan.github.io/dron-concept/"}
+            githubURL={"https://github.com/mitchHartigan/dron-concept/"}
+            techBulletPointsCol1={["Invision Studio", "Figma", "Bootstrap"]}
+            techBulletPointsCol2={["Vanilla JS", "HTML", "CSS"]}
+            projectDescription={`Drön is a mobile application designed to facilitate a future peer-to-peer drone delivery network. This product only exists
+                                 in prototype form, as the technology required for such an app is still only conceptual. It would theoretically allow users to deliver a package or item to another user by requesting a delivery drone to their location for a pickup. I created and
+                                  published a website to display my research and design process, as well as a web version of the interactive prototype.`}
+            challengesDescription={`Even while completely placing aside technical challenges and working only on design, creating Drön proved to be highly challenging. The elements of 
+                                    safety, system feedback, and conceptualizing the delivery process required a deep understanding of our potential users needs and concerns. Delivery drones are still an emerging
+                                    technology, and designing a system that would cater to cautious new users and make them feel comfortable challenged me to significantly up my skills as a researcher and interface designer.`}
+            featureBulletPoints={[
+              "Functional interactive prototype",
+              "Explanation of challenges faced",
+              "Product demonstration video",
+            ]}
+          />
+          <Project
             projectTitle={"Scriber"}
             projectTitleStyle={"project-Title-Text"}
             displayImg={scriber_display}
             displayImgAlt={"scriber app display image"}
-            liveURL={"https://scriber.design/"}
             githubURL={"https://github.com/mitchHartigan/scriber-frontend"}
+            liveURL={"https://scriber.netlify.app/"}
             techBulletPointsCol1={[
               "React.js",
               "Node/Express.js",
