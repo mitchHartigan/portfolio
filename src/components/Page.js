@@ -73,7 +73,7 @@ export default class Page extends Component {
               "Node.js",
             ]}
             projectDescription={`The aim of this project was to modernize the web presence for Big Wave Water Technologies, a municipal water treatment company in Oceanside, CA. I designed and built the new company website, exceeding the clients expectations with the overall look and feel of the final product. This site features animated product elements, modern card design, and a functional contact form pointing new customers in the right direction.`}
-            challengesDescription={`Coming into this project with a set of design and development skills, I focused on growing my client interaction and communication skills. I needed to manage scope and client expectations, communicate technical topics in a non-technical way, and translate their wants and needs into a tangible outcome through my designs. 
+            challengesDescription={`Coming into this project with a set of design and development skills, I focused on growing in client interaction and communication. I took care to manage scope and client expectations, communicate technical topics in a non-technical way, and translate their wants and needs into a tangible outcome through my designs. 
                                     `}
             featureBulletPoints={[
               "On scroll animated SVG elements.",
