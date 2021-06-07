@@ -9,6 +9,7 @@ import Project from "./project/Project";
 import scriber_display from "../scriber_display.png";
 import singapore_display from "../singapore_display.png";
 import pakkit_display from "../Pakkit_thumbnail.PNG";
+import bigwave_display from "../BigWavePortfolioSnip.PNG";
 import dron_display from "../dron_concept_img.PNG";
 import Experience from "./Experience";
 import Contact from "./Contact";
@@ -53,7 +54,34 @@ export default class Page extends Component {
         <Testimonial />
 
         <div id="my-work">
-          <PageTitle textStyle="pageTitle-Header-Text">My Projects</PageTitle>
+          <PageTitle textStyle="pageTitle-Header-Text">My Work</PageTitle>
+
+          <Project
+            projectTitle="Big Wave Water"
+            projectTitleStyle="project-Title-Text"
+            displayImg={bigwave_display}
+            liveURL="https://bigwavewater.netlify.app/"
+            githubURL="https://github.com/mitchHartigan/big-wave/"
+            techBulletPointsCol1={[
+              "React.js",
+              "Styled Components",
+              "Lottie.js",
+            ]}
+            techBulletPointsCol2={[
+              "React Router",
+              "Serverless Functions",
+              "Node.js",
+            ]}
+            projectDescription={`The aim of this project was to modernize the web presence for Big Wave Water Technologies, a municipal water treatment company in Oceanside, CA. I designed and built the new company website, exceeding the clients expectations with the overall look and feel of the final product. This site features animated product elements, modern card design, and a functional contact form pointing new customers in the right direction.`}
+            challengesDescription={`Coming into this project with a set of design and development skills, I focused on growing my client interaction and communication skills. I needed to manage scope and client expectations, communicate technical topics in a non-technical way, and translate their wants and needs into a tangible outcome through my designs. 
+                                    `}
+            featureBulletPoints={[
+              "On scroll animated SVG elements.",
+              "Responsive across modern browsers and devices.",
+              "Contact form connected to Node.js backend.",
+              "Optimized page load times.",
+            ]}
+          />
 
           <Project
             projectTitle="Pakkit"

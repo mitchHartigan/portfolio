@@ -3,7 +3,7 @@ import Technology from './Technology';
 import github_logo from '../github_logo.png';
 import heroku_logo from '../heroku_logo.png';
 import netlify_logo from '../netlify_logo.png';
-
+import serverless_logo from '../serverless_logo.png';
 export default class Services extends Component {
   render() {
     return (
@@ -19,6 +19,7 @@ export default class Services extends Component {
             <Technology src={netlify_logo} alt={'netlify logo'} text={'Netlify'} />
             <Technology src={github_logo} alt={'github logo'} text={'GitHub'} />
             <Technology src={heroku_logo} alt={'heroku logo'} text={'Heroku'} />
+            <Technology src={serverless_logo} alt="serverless logo" text="Serverless" />
           </div>
         </div>
       </div>
